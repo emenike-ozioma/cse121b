@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emenike Ozioma || CSE121B Final Project || BYU-Idaho </title>
+    <meta name="description" content="A Real-Time Weather Forecast">
+    <meta name="author" content="Emenike Ozioma">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>WeatherNow</h1>
+        <form id="search-form">
+            <div class="input-container">
+                <label for="city">Enter City:</label>
+                <input type="text" id="city" name="city" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+        <div id="loading-indicator" class="hidden">Loading...</div>
+        <div id="weather-container"></div>
+    </div>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+<footer>
+    <p>&#169;2023 🌴 WeatherNow 🌴 Emenike Ozioma.</p>
+    <nav class="sociallinks">
+        <a href="https://github.com">
+            <img src="images/github.png" alt="github" width="20"></a>
+        <a href="https://github.com">
+            <img src="images/linkedin.png" alt="linkedin" width="20"></a>
+        <a href="https://facebook.com">
+            <img src="images/facebook.png" alt="facebook" width="20"></a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.png" alt="instagram" width="20"></a>
+    </nav>
+</footer>
+</html>
